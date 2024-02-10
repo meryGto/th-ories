@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {background-color: black;
+                  color:white;
+                 font-family:Georgia, 'Times New Roman', Times, serif;}
+            header {background-color: white;
+                   height: 80px; /* Réglez la hauteur comme vous le souhaitez */
+                   width: 100%; /* 100% de la largeur de l'écran */
+                   position: fixed; /* Fixe la position pour qu'il soit toujours visible en haut de la page */
+                   top: 0; /* Aligne le haut de l'élément avec le haut de la fenêtre */
+                   left: 0; /* Aligne la gauche de l'élément avec la gauche de la fenêtre */ }
+           .header-content {
+                  display: flex;
+                 justify-content: space-between;
+                 align-items: center;
+                 padding: 0 20px;
+                 height: 100%;
+                 }   
+            nav ul {
+                   list-style: none;
+                   margin: 0;
+                   padding: 0;
+            }
+            nav li {
+                display:inline-block;
+    
+            }
+            nav a {
+                text-decoration: none;
+                color: black;
+                padding: 10px 20px;
+                border: 2px solid red;
+                border-radius: 5px;
+            
+             }
+             nav a:hover {
+                color:red;
+             }
+             nav a:active {
+                color:green;
+             }
+            h1 {color:black;}
+        
+
+        </style>
+    </head>
+    <body>
+        <header><!-- balise de structure, en-tête de la page (logo, tite, lien de navigation)-->
+            <div class="header-content">
+        <h1>Top Théorie à connaître !</h1>
+        <nav>
+            <ul>
+                <li><a href="théorie-1.html" target="-self">théorie 1</a></li>
+                <li><a href="théorie-2.html" target="-self">théorie 2</a></li>
+                <!--target="-self" = pour ouvrir la page dans le même onglet-->
+            </ul>
+        </nav>
+        </div>
+        </header>
+        <main> <!--balise de structure, contenu principal de la page-->
+         
+        </main>
+        <footer> <!--balise de stucture, pied de la page-->
+
+        </footer>
+
+    </body>
+</html>
